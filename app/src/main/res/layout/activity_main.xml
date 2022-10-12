@@ -31,10 +31,30 @@
         android:id="@+id/bt_stop"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blank Fragment 1"
+        android:backgroundTint="#BA2F85"
+        android:id="@+id/bt_bf1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blank Fragment 2"
+        android:backgroundTint="#BA2F85"
+        android:id="@+id/bt_bf2"
+        />
+
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/fragment1"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment2"/>
 
 
 </LinearLayout>
